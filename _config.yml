@@ -67,12 +67,12 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
-search_provider          : # lunr (default), algolia, google
+search_provider          : algolia (default), algolia, google
 algolia:
-  application_id         : # YOUR_APPLICATION_ID
-  index_name             : # YOUR_INDEX_NAME
-  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  application_id         : 2NU4TGC3U9 # YOUR_APPLICATION_ID
+  index_name             : docsearch# YOUR_INDEX_NAME
+  search_only_api_key    : 29cf1747177b3b39b990af757f97547c # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
