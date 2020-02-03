@@ -69,9 +69,9 @@ search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : algolia (default), algolia, google
 algolia:
-  application_id         : 2NU4TGC3U9 # YOUR_APPLICATION_ID
-  index_name             : docsearch# YOUR_INDEX_NAME
-  search_only_api_key    : 29cf1747177b3b39b990af757f97547c # YOUR_SEARCH_ONLY_API_KEY
+  application_id         : 9874O7CY0V # YOUR_APPLICATION_ID
+  index_name             : blog # YOUR_INDEX_NAME
+  search_only_api_key    : 1f408a81186c34e92f79e1a047a729aa # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
